@@ -1,3 +1,9 @@
+databases:
+  - name: postgres
+    ipAllowList: []
+    region: frankfurt
+    plan: free
+    
 services:
   - type: web
     plan: free
