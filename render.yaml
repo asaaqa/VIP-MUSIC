@@ -1,7 +1,7 @@
 databases:
-  - name: VipX
-    databaseName: VipX
-    user: VipX
+  - name: 
+    databaseName: 
+    user: 
 
 services:
   - type: web
