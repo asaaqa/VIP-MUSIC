@@ -103,7 +103,7 @@ def stats_buttons(_, status):
             [
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="close",
+                    callback_data="💞إغلاق💞",
                 ),
             ],
         ]
@@ -117,7 +117,7 @@ def back_stats_buttons(_):
             [
                 InlineKeyboardButton(
                     text=_["BACK_BUTTON"],
-                    callback_data="GETSTATS",
+                    callback_data="©الاحصائيات™",
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
@@ -135,27 +135,27 @@ def top_ten_stats_markup(_):
             [
                 InlineKeyboardButton(
                     text=_["SA_B_2"],
-                    callback_data="GetStatsNow Tracks",
+                    callback_data="© المسارات ©",
                 ),
                 InlineKeyboardButton(
                     text=_["SA_B_1"],
-                    callback_data="GetStatsNow Chats",
+                    callback_data="© الدردشة ©",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     text=_["SA_B_3"],
-                    callback_data="GetStatsNow Users",
+                    callback_data="© المستخدمون ©",
                 ),
                 InlineKeyboardButton(
                     text=_["SA_B_4"],
-                    callback_data="GetStatsNow Here",
+                    callback_data="© الاحصائيات ©",
                 ),
             ],
             [
                 InlineKeyboardButton(
                     text=_["BACK_BUTTON"],
-                    callback_data="GlobalStats",
+                    callback_data="® العالمية ®",
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
