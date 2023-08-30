@@ -13,7 +13,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="•─╼⃝𖠁مجموعتگ◈الى◈أضفني 𖠁⃝╾─•",
+                text="•─╼⃝اضفني الى مجموعتگ𖠁⃝╾─•",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -38,7 +38,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="•─╼⃝𖠁مجموعتگ◈الى◈أضفني 𖠁⃝╾─•",
+                text="•─╼⃝𖠁اضفني الى مجموعتگ 𖠁⃝╾─•",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         
