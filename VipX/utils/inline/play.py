@@ -252,7 +252,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="تراجع《10",
+                text="《10",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -268,7 +268,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="10》تقدم",
+                text="10》",
 
                 callback_data=f"ADMIN 2|{chat_id}",
 
@@ -541,7 +541,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="10》تقدم",
+                text="10》",
 
                 callback_data=f"ADMIN 2|{chat_id}",
 
@@ -600,7 +600,7 @@ def stream_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="《10تراجع",
+                text="《10",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -616,7 +616,7 @@ def stream_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="تقدم10》",
+                text="10》",
 
                 callback_data=f"ADMIN 2|{chat_id}",
 
@@ -730,7 +730,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
             InlineKeyboardButton(
 
-                text="ᴄʟᴏsᴇ", callback_data=f"close",
+                text="اغلاق", callback_data=f"close",
 
             ),
 
