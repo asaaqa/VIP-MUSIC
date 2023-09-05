@@ -87,7 +87,7 @@
       } 
       }, 
 
-        "buildpacks": [
+            "buildpacks": [
           {
               "url": "heroku/python"
           },
@@ -95,8 +95,14 @@
               "url": "heroku/nodejs"
           },
           {
-              "url": "https://github.com/asaaqa/Heroku-Buildpack-ffmpeg-latest"
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+      },
       "stack": "container"
-      }
+          }
