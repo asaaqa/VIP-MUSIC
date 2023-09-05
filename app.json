@@ -79,8 +79,14 @@
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐋𝐎𝐆 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐖𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐀𝐋𝐖𝐀𝐘𝐒 𝐒𝐓𝐀𝐘 𝐀𝐃𝐌𝐈𝐍 (𝐈𝐃 𝐌𝐔𝐒𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐖𝐈𝐓𝐇 حط ايدي جروبك وارفع البوت والمساعد فيه اشراف  -100).",
         "value": "",
         "required": true
-      }
-    },
+     }, 
+      "UPSTREAM_REPO": {
+      "description": "رمز السورس لا تغيره ابدا",
+      "value": "https://github.com/asaaqa/VIP-MUSIC",
+      "required": false
+      } 
+      }, 
+
     "buildpacks": [
           {
               "url": "heroku/python"
@@ -92,11 +98,5 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "eco"
-          }
-      },
       "stack": "container"
-  }
+  } 
