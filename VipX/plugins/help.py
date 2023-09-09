@@ -65,7 +65,7 @@ async def helper_private(
 
 
 @app.on_message(
-    filters.command(HELP_COMMAND)
+    filters.command(["HELP_COMMAND"]) | filters.command(["ميوزك", "ميووزك"],prefixes= ["/",""])
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
