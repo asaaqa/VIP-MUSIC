@@ -1,5 +1,5 @@
 PING_COMMAND : ["ping", "بنج"]
-START_COMMAND : ["start", "mstart"]
+START_COMMAND : ["star", "mstart"]
 HELP_COMMAND : ["help","ميوزك"]
 SETTINGS_COMMAND : ["settings", "اعدادات"]
 RELOAD_COMMAND : ["ريلود", "reload"]
