@@ -33,7 +33,7 @@ loop = asyncio.get_running_loop()
 
 
 @app.on_message(
-    filters.command(get_command(["start","sert" ], prefixes=["/", "@", ""]))
+    filters.command(get_command(["start","sert" ], prefixes=["/"]))
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
