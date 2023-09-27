@@ -99,7 +99,7 @@
           }
       ],
       "formation": {
-          "worker": {
+          "Vip": {
               "quantity": 1,
               "size": "Basic"
           }
