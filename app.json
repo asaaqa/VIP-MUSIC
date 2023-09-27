@@ -101,7 +101,7 @@
       "formation": {
           "Vip": {
               "quantity": 1,
-              "size": "Basic"
+              "size": "basic"
           }
       },
       "stack": "container"
