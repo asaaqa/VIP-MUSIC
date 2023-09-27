@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "حط الايبي إيد https://my.telegram.org",
-        "value": "",
+        "value": "26388535",
         "required": true
       },
       "API_HASH": {
         "description": "حط الايبي هاش https://my.telegram.org",
-        "value": "",
+        "value": "20e7eb80fb472a9f75b55f81894cfc16",
         "required": true
       },
       "BOT_TOKEN": {
@@ -56,7 +56,7 @@
 
        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 ( 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @ ) , {𝐈𝐅 𝐆𝐑𝐎𝐔𝐏 𝐈𝐒 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐓𝐇𝐄𝐍 𝐅𝐈𝐋𝐋 𝐀𝐅𝐓𝐄𝐑 (https://t.me/) 𝐏𝐚𝐫𝐭𝐬, 𝐋𝐢𝐤𝐞+85vaorE-w8VkYTBl) جروب الدعم ",
 
-       "value": "ASAAQLIO",
+       "value": "hasheyy",
 
        "required": false
 
