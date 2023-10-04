@@ -37,8 +37,6 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="اوامر البوت",
                     callback_data="help_callback hb3",
                 ),
-            ],
-            [
                 InlineKeyboardButton(
                     text="اوامر القناة",
                     callback_data="help_callback hb4",
@@ -46,11 +44,13 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(
-                    text="قائمة التشغيل",
+                    text="™ المطور ™",
                     callback_data="help_callback hb6",
                 ),
+           ],
+           [
                 InlineKeyboardButton(
-                    text="المگالــمـات",
+                    text="® خاص بالمطور ®",
                     callback_data="help_callback hb10",
                 ),
             ],
