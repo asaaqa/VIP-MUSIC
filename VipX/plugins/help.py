@@ -85,14 +85,14 @@ async def helper_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
     keyboard = help_back_markup(_)
-    if cb == "hb9":
+    if cb == "hb6":
         if CallbackQuery.from_user.id not in SUDOERS:
             return await CallbackQuery.answer(
                    "🫡مقلع ذا خاص بمطوري الحبيب ولاك 😆😆", show_alert=True
             )
         else:
             await CallbackQuery.edit_message_text(
-                helpers.HELP_9, reply_markup=keyboard
+                helpers.HELP_6, reply_markup=keyboard
             )
             return await CallbackQuery.answer()
     try:
@@ -123,27 +123,4 @@ async def helper_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(
             helpers.HELP_6, reply_markup=keyboard
         )
-    elif cb == "hb7":
-        await CallbackQuery.edit_message_text(
-            helpers.HELP_7, reply_markup=keyboard
-        )
-    elif cb == "hb8":
-        await CallbackQuery.edit_message_text(
-            helpers.HELP_8, reply_markup=keyboard
-        )
-    elif cb == "hb10":
-        await CallbackQuery.edit_message_text(
-            helpers.HELP_10, reply_markup=keyboard
-        )
-    elif cb == "hb11":
-        await CallbackQuery.edit_message_text(
-            helpers.HELP_11, reply_markup=keyboard
-        )
-    elif cb == "hb12":
-        await CallbackQuery.edit_message_text(
-            helpers.HELP_12, reply_markup=keyboard
-        )
-    elif cb == "hb13":
-        await CallbackQuery.edit_message_text(
-            helpers.HELP_13, reply_markup=keyboard
-        )
+    
