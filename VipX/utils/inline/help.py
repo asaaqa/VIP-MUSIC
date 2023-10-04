@@ -16,10 +16,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         InlineKeyboardButton(
             text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
         ),
-        InlineKeyboardButton(
-            text="★ إغلاق ★", callback_data="help_callback hb13"
-        ),
-    ]
+        ]
     mark = second if START else first
     upl = InlineKeyboardMarkup(
         [
@@ -51,29 +48,10 @@ def help_pannel(_, START: Union[bool, int] = None):
            [
                 InlineKeyboardButton(
                     text="® خاص بالمطور ®",
-                    callback_data="help_callback hb10",
+                    callback_data="help_callback hb7",
                 ),
             ],
-            [
-           
-                InlineKeyboardButton(
-                    text="🕹️التشغيل",
-                    callback_data="help_callback hb8",
-                ),
-            
-            
-                InlineKeyboardButton(
-                    text="خاص بالمطور",
-                    callback_data="help_callback hb9",
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="⚜️الـبدايــه⚜️",
-                    callback_data="help_callback hb11",
-                ),
-            ],
-            mark,
+             mark,
         ]
     )
     return upl
@@ -90,10 +68,7 @@ def help_back_markup(_):
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
                 ),
-                InlineKeyboardButton(
-                    text="★ إغلاق ★", callback_data="help_callback hb13"
-                )
-
+                
             ]
         ]
     )
@@ -104,7 +79,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🎭 ألاوامـــر 🎭",
+                text="🎭 المــيوزگ 🎭",
                 callback_data="settings_back_helper",
             ),
         ],
