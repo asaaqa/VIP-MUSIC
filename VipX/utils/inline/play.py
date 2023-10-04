@@ -525,7 +525,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="تراجع《10",
+                text="《10",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -569,7 +569,7 @@ def stream_markup(_, videoid, chat_id):
             [
             InlineKeyboardButton(
 
-                text="♡",
+                text="🎛",
 
                 callback_data=f"ADMIN Resume|{chat_id}",
 
