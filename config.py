@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot,𝐀𝐥𝐥 𝐃𝐞𝐬𝐢𝐠𝐧 𝐍𝐚𝐦𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝.
-MUSIC_BOT_NAME = "𝄟ॐ❥𝗩𝗜𝗣🍷𝗠𝗨𝗦𝗜𝗖⏤͟͟͞❥͜͡𝄟⃟"
+MUSIC_BOT_NAME = "𝄟ॐ𝗠𝗨𝗦𝗜𝗖𝄟⃟"
 
 # Your User ID.
 OWNER_ID = list(
@@ -166,16 +166,16 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/dd052aea06f1367475c38.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/dd052aea06f1367475c38.jpg",
+    "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -185,17 +185,17 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://graph.org/file/dd052aea06f1367475c38.jpg",
+    "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -225,7 +225,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/b23bdfbaa9a7c650f9383.jpg",
 )
 
 
