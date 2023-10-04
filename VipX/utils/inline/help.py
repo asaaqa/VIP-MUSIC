@@ -25,16 +25,16 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="🍁اوامر الادمن🍁",
+                    text="الادمن",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="🔺اضافيه�",
+                    text="اضافيه",
                     callback_data="help_callback hb2",
                 ),
             
                 InlineKeyboardButton(
-                    text="♨️الحظر♨️",
+                    text="الحظر",
                     callback_data="help_callback hb3",
                 ),
             ],
@@ -43,22 +43,14 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="📣الإذاعه📣",
                     callback_data="help_callback hb4",
                 ),
-                InlineKeyboardButton(
-                    text="🚫المحظورين🚫",
-                    callback_data="help_callback hb12",
-                ),
-                InlineKeyboardButton(
-                    text="🍷كــلـمـــات🍷",
-                    callback_data="help_callback hb5",
-                ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🎙️قائمة التشغيل🎙️",
+                    text="قائمة التشغيل",
                     callback_data="help_callback hb6",
                 ),
                 InlineKeyboardButton(
-                    text="🎸المگالــمـات🎸",
+                    text="المگالــمـات",
                     callback_data="help_callback hb10",
                 ),
             ],
@@ -71,7 +63,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             
             
                 InlineKeyboardButton(
-                    text="🍸خاص بالمطور🍸",
+                    text="خاص بالمطور",
                     callback_data="help_callback hb9",
                 ),
             ],
